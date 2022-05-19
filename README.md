@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/zEncrypte/Osiris"><img src="https://i.ibb.co/bNGMdvW/goat.png" alt="Goat Nuker"></a>
+  <a href="https://github.com/zEncrypte/Goat.Nuker"><img src="https://i.ibb.co/bNGMdvW/goat.png" alt="Goat Nuker"></a>
   <br>
   Goat
   <br>
