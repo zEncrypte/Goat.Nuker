@@ -1,2 +1,18 @@
-# Goat.Nuker
-private tool now public
+
+
+
+
+
+
+## COMANDOS:
+- Ban Members: Banea a los miembros del servidor
+- Kick Members: Kickea a los miembros del servidor
+- Purge Members: Purga a los miembros del servidor
+- Delete Roles: Elimina todos los roles
+- Delete Channels: Elimina todos los canales
+- Create Roles: Crea roles hasta el limite
+- Create Channels: Crea canales hasta el limite
+- Nuke server: Destruye el servidor
+- Scrape Info: Recolecta info
+
+> Creditos a: [Ifeelucky](https://github.com/ifeelucky)
