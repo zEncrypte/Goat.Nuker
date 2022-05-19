@@ -2,10 +2,10 @@
   <br>
   <a href="https://github.com/zEncrypte/Osiris"><img src="https://i.ibb.co/bNGMdvW/goat.png" alt="Goat Nuker"></a>
   <br>
-  Osiris
+  Goat
   <br>
 </h1>
-<p align="center">Goat, el mejor nuker de discord</p>
+<p align="center">La mejor herramienta Nuke de discord</p>
 
 # COMANDOS:
 - Ban Members: Banea a los miembros del servidor
