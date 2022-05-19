@@ -1,10 +1,13 @@
+<h1 align="center">
+  <br>
+  <a href="https://github.com/zEncrypte/Osiris"><img src="https://i.ibb.co/bNGMdvW/goat.png" alt="Goat Nuker"></a>
+  <br>
+  Osiris
+  <br>
+</h1>
+<p align="center">Goat, el mejor nuker de discord</p>
 
-
-
-
-
-
-## COMANDOS:
+# COMANDOS:
 - Ban Members: Banea a los miembros del servidor
 - Kick Members: Kickea a los miembros del servidor
 - Purge Members: Purga a los miembros del servidor
